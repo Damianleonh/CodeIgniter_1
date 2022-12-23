@@ -30,6 +30,8 @@ class Movie extends BaseController {
     
     public function create()
     {
+
+        
         echo "Datos: ";
         echo $this->request->getPost('title');
 
